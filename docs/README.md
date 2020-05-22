@@ -1,11 +1,11 @@
 ## Chrome Audio Capturer
 
-###Background
+### Background
 
 This Chrome extension will allow users to capture any audio playing on the current active tab and save the audio into a file.
 
 
-###Functionality & MVP
+### Functionality & MVP
 
 With this extension, users will be able to:
 
@@ -13,11 +13,11 @@ With this extension, users will be able to:
 - [ ] Download the resulting file to the chrome Downloads folder
 - [ ] Able to see an indication to see whether or not a capture is happening
 
-###Wireframes
+### Wireframes
 
-![Wireframe](/AudioCapture.png)
+![Wireframe](/docs/AudioCapture.png)
 
-###Technologies & Implementation
+### Technologies & Implementation
 
 This extension will be implemented using the standard Chrome extension technology: Javascript, HTML, and CSS. There will be a `manifest.json` and `package.json` as with every extension. In addition, there will be two scripts for handling the logic of the extension:
 
@@ -29,7 +29,7 @@ To display the menu and content, there will be two files:
 - `menu.html`: the file that renders and displays the menu for audio capturing.
 - `menu.css`: the file that contains css for the menu.
 
-###Implmentation Timeline
+### Implmentation Timeline
 
 **Day 1**: Learn the basics of how to create a chrome extension and have the basic files and structure of the program completed. (`package.json` and `manifest.json`)
 
